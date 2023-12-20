@@ -16,7 +16,7 @@ const ImageSearch = ({setText})=>{
             },
             params:{
                 query: searchInput || initialSearch,
-                client_id:"bL1jopA8p_vK-i-znAc4yGzp_FTHh2dpYNNNIqnGKCk"
+                client_id:`${process.env.REACT_APP_UNSPLASH_API_KEY}`
             }
         });
        
